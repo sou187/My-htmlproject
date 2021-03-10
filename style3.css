@@ -1,0 +1,48 @@
+.ab{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    animation: ani 5s infinite;
+    position: relative;
+    animation-delay: 5s;
+}
+0keyframes ani{
+    from{left: 0px;}
+    to{left: 500px;}
+}
+.cd{
+    height: 200px;
+    width: 200px;
+    background-color:red;
+    animation: nsh 5s infinite;
+    position: relative;
+    animation-delay: 1s;
+}
+0keyframes nsh{
+    from{right: 0px;}
+    to{right: 500px;}
+}
+.mn{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    animation: hsc 5s infinite;
+    position: relative;
+    animation-delay: 1s;
+}
+0keyframes hscs{
+    from{top: 0px;}
+    to{top: 500px;}
+}
+.cd{
+    height: 200px;
+    width: 200px;
+    background-color:pink;
+    animation: ssc 5s infinite;
+    position: relative;
+    animation-delay: 1s;
+}
+0 keyframes ssc{
+    from{bottom: 0px;}
+    to{bottom: 500px;}
+}
